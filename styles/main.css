@@ -17,6 +17,45 @@ body {
     background-color: mistyrose;
 }
 
+/* Site Header */
+
+.site-header {
+    background-color: white;
+    padding: 40px 20px;
+}
+
+.site-header-link {
+    display: inline-block;
+}
+
+.company-logo {
+    /* display: inline-block; */
+    width: 40px;
+}
+
+/* Site Menu */
+
+.site-menu {
+    display: inline-block;
+}
+
+.site-menu-item {
+    display: inline-block;
+}
+
+.main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: rebeccapurple;
+    color: white;
+    text-align: right;
+}
+
 /* Overwrite browser default styles and Inherit color from parent that has color set */
 a {
     color: inherit;
