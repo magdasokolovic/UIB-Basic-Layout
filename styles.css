@@ -1,6 +1,14 @@
+body {
+    margin: 0;
+}
+
 h1,
 span {
     width: 400px;
+}
+
+h2 { 
+    width: 80%;
 }
 
 span {
