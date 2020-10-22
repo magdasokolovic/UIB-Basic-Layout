@@ -1,10 +1,34 @@
-body {
-    margin: 0;
+* {
+    box-sizing: border-box;
+    /* the property is not inherited, it applies to every single element */
 }
 
+html {
+    /* you pass inherited properties down to children */
+}
+
+body {
+    margin: 0;
+    color: #444;
+    background-color: mistyrose;
+}
+
+/* Overwrite browser default styles and Inherit color from parent that has color set */
+a {
+    color: inherit;
+}
 h1,
 span {
     width: 400px;
+}
+
+h1 {
+    border:1px solid blue;
+    /* padding: 10px 16px 24px 32px; */
+
+    /* set for the top?bottom, then left/right. WHen we have 2 padding values */
+    padding: 10px;
+    color: rebeccapurple;
 }
 
 h2 { 
