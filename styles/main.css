@@ -1,3 +1,5 @@
+/* Reset default box sizing, margin and padding */
+
 * {
     box-sizing: border-box;
     /* the property is not inherited, it applies to every single element */
