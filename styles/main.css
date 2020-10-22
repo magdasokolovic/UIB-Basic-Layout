@@ -11,6 +11,11 @@ html {
     /* you pass inherited properties down to children */
 }
 
+/* Overwrite browser default styles and Inherit color from parent that has color set */
+a {
+    color: inherit;
+}
+
 body {
     margin: 0;
     color: #444;
@@ -68,16 +73,13 @@ footer {
     text-align: right;
 }
 
-/* Overwrite browser default styles and Inherit color from parent that has color set */
-a {
-    color: inherit;
-}
-h1,
+
+.section-headline,
 span {
     width: 400px;
 }
 
-h1 {
+.section-headline {
     border:1px solid blue;
     /* padding: 10px 16px 24px 32px; */
 
